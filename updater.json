@@ -1,8 +1,9 @@
 {
-  "url": "https://raw.githubusercontent.com/Hoennkeys/solebra-client-updates/main/client-update/",
-  "keepFiles": true,
-  "files": {
-    "data/styles/40-container.otui": "1c204274",
-    "layouts/retro/styles/40-inventory.otui": "cb5fae27"
-  }
+    "url":  "https://raw.githubusercontent.com/Hoennkeys/solebra-client-updates/main/client-update/",
+    "keepFiles":  true,
+    "files":  {
+                  "data/styles/40-container.otui":  "1c204274",
+                  "layouts/retro/styles/40-inventory.otui":  "cb5fae27",
+                  "modules/game_containers/containers.lua":  "8c4d3170"
+              }
 }
