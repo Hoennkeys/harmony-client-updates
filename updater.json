@@ -2,12 +2,12 @@
     "url": "https://raw.githubusercontent.com/Hoennkeys/harmony-client-updates/main/client-update/",
     "keepFiles": true,
     "files": {
-        "data/styles/40-container.otui": "486363433",
-        "layouts/retro/styles/30-miniwindow.otui": "2119999226",
-        "layouts/retro/styles/40-inventory.otui": "1919661977",
-        "modules/game_containers/containers.lua": "1846953008",
-        "modules/game_exph/exph.otui": "3461729026",
-        "modules/game_interface/gameinterface.otui": "3677289853",
-        "modules/game_inventory/inventory.lua": "2669529610"
+        "data/styles/40-container.otui": "4c46609d",
+        "layouts/retro/styles/30-miniwindow.otui": "d4d48e8f",
+        "layouts/retro/styles/40-inventory.otui": "3b7b974d",
+        "modules/game_containers/containers.lua": "6e164430",
+        "modules/game_exph/exph.otui": "0ece5ce0",
+        "modules/game_interface/gameinterface.otui": "bce6606a",
+        "modules/game_inventory/inventory.lua": "83ad521f"
     }
 }
