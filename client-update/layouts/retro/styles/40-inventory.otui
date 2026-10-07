@@ -327,7 +327,7 @@ InventoryWindow < HeadlessMiniWindow
         layout:
           type: verticalBox
         
-                UIButton
+        UIButton
           id: buttonPvp
           height: 20
           icon: /images/game/combatmodes/pvp
