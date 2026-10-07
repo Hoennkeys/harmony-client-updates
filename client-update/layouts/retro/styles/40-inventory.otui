@@ -294,7 +294,7 @@ InventoryWindow < HeadlessMiniWindow
         margin-top: 22
         margin-left: 24
         anchors.left: parent.left
-        anchors.top: parent.top		
+        anchors.top: parent.top                
 
       FightBalancedBox
         id: fightBalancedBox
@@ -327,7 +327,7 @@ InventoryWindow < HeadlessMiniWindow
         layout:
           type: verticalBox
         
-		UIButton
+                UIButton
           id: buttonPvp
           height: 20
           icon: /images/game/combatmodes/pvp
