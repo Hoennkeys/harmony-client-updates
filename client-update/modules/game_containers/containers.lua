@@ -163,6 +163,10 @@ function onContainerOpen(container, previousContainer)
   refreshContainerPages(container)
 
   local layout = containerPanel:getLayout()
+  -- fixed 4 columns (4x5 grid), independent of window width
+  layout:setFlow(false)
+  layout:setNumColumns(4)
+  layout:setNumLines(math.max(1, math.ceil(container:getCapacity() / 4)))
   local cellSize = layout:getCellSize()
   containerWindow:setContentMinimumHeight(cellSize.height)
   containerWindow:setContentMaximumHeight(cellSize.height*layout:getNumLines())
