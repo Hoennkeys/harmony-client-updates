@@ -1,4 +1,8 @@
 {
   "url": "https://raw.githubusercontent.com/Hoennkeys/solebra-client-updates/main/client-update/",
-  "files": {}
+  "keepFiles": true,
+  "files": {
+    "data/styles/40-container.otui": "662A37618692298B5DEA0FF03978817D",
+    "layouts/retro/styles/40-inventory.otui": "5641FFE0770B6456CED704A6888B0946"
+  }
 }
