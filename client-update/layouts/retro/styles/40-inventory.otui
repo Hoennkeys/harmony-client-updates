@@ -95,7 +95,7 @@ PurseButton < UIButton
 CombatBox < UICheckBox
   size: 20 20
   image-clip: 0 0 20 20
-  margin-left: 4
+  margin-left: 2
 
   $checked:
     image-clip: 0 20 20 20
@@ -144,6 +144,9 @@ InventoryWindow < HeadlessMiniWindow
 
   MiniWindowContents
     anchors.left: parent.left
+    anchors.right: parent.right
+    margin-left: 2
+    margin-right: 2
     margin-top: 0
     
     UIButton
@@ -176,7 +179,7 @@ InventoryWindow < HeadlessMiniWindow
         
     Panel
       id: inventoryPanel
-      margin-right: 63
+      margin-right: 45
       margin-top: 2
       margin-bottom: 52
       anchors.fill: parent
@@ -205,7 +208,7 @@ InventoryWindow < HeadlessMiniWindow
         anchors.top: slot1.top
         anchors.right: slot1.left
         margin-top: 13
-        margin-right: 5
+        margin-right: 3
 
       LeftSlot
         anchors.top: prev.bottom
@@ -221,7 +224,7 @@ InventoryWindow < HeadlessMiniWindow
         anchors.top: slot1.top
         anchors.left: slot1.right
         margin-top: 13
-        margin-left: 5
+        margin-left: 3
 
       RightSlot
         anchors.top: prev.bottom
@@ -279,7 +282,7 @@ InventoryWindow < HeadlessMiniWindow
         id: fightOffensiveBox
         anchors.left: parent.left
         anchors.top: parent.top        
-        margin-left: 8
+        margin-left: 2
 
       StandModeBox
         id: standModeBox
@@ -289,7 +292,7 @@ InventoryWindow < HeadlessMiniWindow
       ChaseModeBox
         id: chaseModeBox
         margin-top: 22
-        margin-left: 32
+        margin-left: 24
         anchors.left: parent.left
         anchors.top: parent.top		
 
@@ -298,27 +301,27 @@ InventoryWindow < HeadlessMiniWindow
         margin-top: 22
         anchors.left: parent.left
         anchors.top: parent.top
-        margin-left: 8
+        margin-left: 2
         
       SafeFightBox
         id: safeFightBox
         margin-top: 44
         anchors.left: parent.left
         anchors.top: parent.top
-        margin-left: 32
+        margin-left: 24
 
       FightDefensiveBox
         id: fightDefensiveBox
         margin-top: 44
         anchors.left: parent.left
         anchors.top: parent.top
-        margin-left: 8
+        margin-left: 2
 
 
       Panel
         id: buttonsPanel
         margin-top: 4
-        margin-right: 5
+        margin-right: 3
         anchors.fill: parent
         anchors.top: prev.bottom
         layout:

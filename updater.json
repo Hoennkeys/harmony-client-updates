@@ -3,9 +3,8 @@
     "keepFiles":  true,
     "files":  {
                   "data/styles/40-container.otui":  "1c204274",
-                  "layouts/retro/styles/40-inventory.otui":  "cb5fae27",
-                  "modules/game_containers/containers.lua":  "ded6bb6d"
+                  "modules/game_containers/containers.lua":  "6e164430",
+                  "modules/game_interface/gameinterface.otui":  "76ea631d",
+                  "layouts/retro/styles/40-inventory.otui":  "371c07c0"
               }
 }
-
-

@@ -185,11 +185,6 @@ function onContainerOpen(container, previousContainer)
   end
 
   containerWindow:setup()
-
-  -- force 4 columns (4x5 grid) regardless of saved window width
-  containerWindow:setWidth(156)
-  containerWindow:setMinimumWidth(156)
-  containerWindow:setMaximumWidth(156)
 end
 
 function onContainerClose(container)
