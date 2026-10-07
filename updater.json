@@ -1,10 +1,16 @@
 {
-    "url":  "https://raw.githubusercontent.com/Hoennkeys/solebra-client-updates/main/client-update/",
-    "keepFiles":  true,
-    "files":  {
-                  "data/styles/40-container.otui":  "1c204274",
-                  "modules/game_containers/containers.lua":  "6e164430",
-                  "modules/game_interface/gameinterface.otui":  "76ea631d",
-                  "layouts/retro/styles/40-inventory.otui":  "371c07c0"
-              }
+    "url": "https://raw.githubusercontent.com/Hoennkeys/solebra-client-updates/main/client-update/",
+    "keepFiles": true,
+    "files": {
+        "data/styles/40-container.otui": "1c204274",
+        "modules/game_containers/containers.lua": "6e164430",
+        "modules/game_interface/gameinterface.otui": "76ea631d",
+        "layouts/retro/styles/40-inventory.otui": "371c07c0",
+        "data\\styles\\40-container.otui": "486363433",
+        "layouts\\retro\\styles\\30-miniwindow.otui": "2119999226",
+        "layouts\\retro\\styles\\40-inventory.otui": "924583872",
+        "modules\\game_containers\\containers.lua": "1846953008",
+        "modules\\game_exph\\exph.otui": "3461729026",
+        "modules\\game_interface\\gameinterface.otui": "3677289853"
+    }
 }
