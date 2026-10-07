@@ -1,5 +1,5 @@
 {
-    "url": "https://raw.githubusercontent.com/Hoennkeys/solebra-client-updates/main/client-update/",
+    "url": "https://raw.githubusercontent.com/Hoennkeys/harmony-client-updates/main/client-update/",
     "keepFiles": true,
     "files": {
         "data/styles/40-container.otui": "486363433",
